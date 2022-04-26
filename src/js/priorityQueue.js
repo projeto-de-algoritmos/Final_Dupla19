@@ -6,7 +6,7 @@ class QElement {
     }
 }
 
-module.exports = class PriorityQueue {
+export default class PriorityQueue {
      constructor()
     {
         this.items = [];
@@ -58,4 +58,4 @@ module.exports = class PriorityQueue {
         return this.items.length == 0;
     }
 
-}
+};
