@@ -12,6 +12,17 @@ module.exports = class Graph {
       this.adjacencyList[v].push({ node: u, weight: weight*-1 });
       this.adjacencyList[u].push({ node: v, weight: weight*-1 });
     }
+
+    removeEdge(v, u){
+      if(this.adjacencyList[v] && this.adjacencyList[u]){
+        this.adjacencyList[v] = this.adjacencyList[v].filter(
+          (ve) => ve !== u
+        );
+        this.adjacencyList[u] = this.adjacencyList[u].filter(
+          (ve) => ve !== v
+        );
+      }
+    }
   
     primMST() {
       const MST = new Graph();
