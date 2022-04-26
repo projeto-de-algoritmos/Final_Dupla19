@@ -11,22 +11,40 @@
 | 18/0018574  |  Hérya Rodrigues Alcantara |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-
+Book Deliver é uma aplicação construída com o propósito de recomendar livros semelhantes a um livro desejado. A aplicação se baseia no algoritmo de Maximum Spanning Tree (não Minimum Spanning Tree) para a geração dos clusters iniciais, seguido do cálculo do cluster de maior peso. Os livros recomendados são aqueles presentes no cluster de maior peso.
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![Image](images/1.jpeg)
+![Image](images/2.jpeg)
+![Image](images/3.jpeg)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
+* Pré-requisitos:
+  * [Git](https://git-scm.com/)
+  * [NodeJS](https://nodejs.org/en/)
+  * [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+  
+ 
+ * Clonar o repositório
+ 
+  * Instalar dependências
+  ```bash
+  npm install
+  ```
+  
+ * Executar o projeto
+  ```bash
+  npm run build
+  npm run dev
+  ```
+  
+  * Acessar a aplicação
+  ```
+  http://localhost:8080/
+  ```
+ 
 
 
 
